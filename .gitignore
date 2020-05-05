@@ -71,7 +71,10 @@
 
 # CMake
 cmake-build-*/
+
+#Allow
 !cmake-build-debug/file.txt
+#Allow
 !cmake-build-debug/records.txt
 
 # Mongo Explorer plugin
