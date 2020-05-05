@@ -8,6 +8,8 @@
 *.o
 *.obj
 
+CMakeLists.txt
+
 # Precompiled Headers
 *.gch
 *.pch
@@ -69,13 +71,10 @@
 # *.iml
 # *.ipr
 
+
 # CMake
 cmake-build-*/
 
-#Allow
-!cmake-build-debug/file.txt
-#Allow
-!cmake-build-debug/records.txt
 
 # Mongo Explorer plugin
 .idea/**/mongoSettings.xml
