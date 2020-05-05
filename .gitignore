@@ -74,6 +74,8 @@ CMakeLists.txt
 !cmake-build-debug
 cmake-build-debug/*
 !cmake-build-debug/file.txt
+!cmake-build-debug/records.txt
+
 
 # Mongo Explorer plugin
 .idea/**/mongoSettings.xml
